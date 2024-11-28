@@ -1,7 +1,7 @@
 
 ## Password manager
 
-A simple password manager written in TypeScript.
+A simple password manager written in TypeScript. It uses Nextjs, Prisma (PostgreSQL) and Tailwind.
 
 ### Todo
 
@@ -11,6 +11,7 @@ A simple password manager written in TypeScript.
 - [ ] Search passwords
 - [ ] Store multiple passwords under same website
 - [ ] One dialog window for all buttons instead of each entry having its own buttons in list view
+- [] Toast notifications
 
 ### Previews
 
