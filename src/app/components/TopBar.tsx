@@ -21,18 +21,18 @@ function TopBar({ entriesCount }: SearchBarProps) {
 	return (
 		<div className="bg-neutral-900 w-full border-b-2 border-neutral-700 p-4">
 			<div className="p-4 flex flex-row items-center gap-3 rounded">
-				<div className="pl-2 flex flex-row items-center bg-white rounded">
+				<div className="pl-2 flex flex-row items-center bg-neutral-100 rounded">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 text-neutral-500">
 						<path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
 					</svg>
-					<form className="flex items-center mr-1">
+					<form className="flex items-center">
 						<input
-							className="p-2 caret-black outline-none rounded w-full"
+							className="p-2 caret-black outline-none rounded w-full bg-neutral-100"
 							onChange={(e) => onSearch(e.target.value)}
 							type="text"
 							placeholder="Search passwords.."
 						/>
-						<button type="submit" className="bg-neutral-200 p-1 rounded hover:bg-neutral-300 transition ease-in-out">
+						<button type="submit" className="bg-neutral-300 p-2 text-black hover:bg-neutral-400 transition ease-in-out">
 							Search
 						</button>
 					</form>

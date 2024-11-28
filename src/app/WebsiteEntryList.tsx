@@ -1,4 +1,4 @@
-import { Entry } from "@/src/types/dbTypes";
+import { Entry } from "@prisma/client";
 import WebsiteEntry from "./WebsiteEntry";
 
 type WebsiteEntryListProps = {

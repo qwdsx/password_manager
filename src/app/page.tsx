@@ -1,7 +1,7 @@
 import prisma from "../lib/prisma";
 import TopBar from "./components/TopBar";
 import WebsiteEntryList from "./WebsiteEntryList";
-import { Entry } from "../types/dbTypes";
+import { Entry } from "@prisma/client";
 
 const Home = async () => {
     const entries: Entry[] = await prisma.entry.findMany();

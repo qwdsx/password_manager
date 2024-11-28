@@ -1,4 +1,4 @@
-import { Slide, toast } from "react-toastify";
+import { toast } from "react-toastify";
 import { editPassword } from "../actions/actions";
 import { useState } from "react";
 
