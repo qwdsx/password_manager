@@ -11,7 +11,7 @@ A simple password manager written in TypeScript. It uses Nextjs, Prisma (Postgre
 - [ ] Search passwords
 - [ ] Store multiple passwords under same website
 - [ ] One dialog window for all buttons instead of each entry having its own buttons in list view
-- [] Toast notifications
+- [ ] Toast notifications
 
 ### Previews
 
